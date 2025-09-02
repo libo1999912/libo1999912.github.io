@@ -22,7 +22,7 @@ repository               : "libo1999912/libo999912.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Li Bo"
   pronouns         : # example: "she/her"  
   bio              : "A programmer"
