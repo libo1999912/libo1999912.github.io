@@ -8,10 +8,10 @@
 
   <div class="author__avatar" style="text-align: center; margin-bottom: 1.5em;">
     {% if author.avatar contains "://" %}
-<!--     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" /> -->
+
       <img src="{{ author.avatar }}" alt="{{ author.name }}" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; border: 3px solid #f0f0f0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     {% else %}
-<!--     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" /> -->
+
       <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; border: 3px solid #f0f0f0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     {% endif %}
   </div>
