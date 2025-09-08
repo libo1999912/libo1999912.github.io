@@ -6,14 +6,22 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar" style="text-align: center; margin-bottom: 1.5em;">
+<!--   <div class="author__avatar" style="text-align: center; margin-bottom: 1.5em;">
     {% if author.avatar contains "://" %}
       <img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
     {% else %}
       <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}
-  </div>
-
+  </div> -->
+<div class="author__avatar" style="text-align: center; margin-bottom: 1.5em;">
+  {% if author.avatar contains "://" %}
+    <img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high" 
+         style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover; border: 2px solid #e6e6e6; display: block; margin: 0 auto;" />
+  {% else %}
+    <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ author.name }}" fetchpriority="high" 
+         style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover; border: 2px solid #e6e6e6; display: block; margin: 0 auto;" />
+  {% endif %}
+</div>
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
