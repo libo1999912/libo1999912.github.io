@@ -35,14 +35,16 @@
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
+      {% if author.birth_year %}
+        {% capture current_year %}{{ 'now' | date: "%Y" }}{% endcapture %}
+        {% capture age %}{{ current_year | minus: author.birth_year }}{% endcapture %}
+        <li class="author__desktop"><i class="fas fa-fw fa-cake-candles icon-pad-right"></i>{{ age }}岁</li>
+      {% endif %}
+      {% if author.phone %}
+        <li><a href="tel:{{ author.phone }}"><i class="fas fa-fw fa-mobile-screen icon-pad-right"></i>{{ author.phone }}</a></li>
+      {% endif %}
       {% if author.school %}
         <li class="author__desktop"><i class="fas fa-fw fa-graduation-cap icon-pad-right"></i>{{ author.school }}</li>
-      {% endif %}
-      {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-      {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
