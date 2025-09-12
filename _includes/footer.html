@@ -1,11 +1,11 @@
 {% include base_path %}
 
 <footer class="simple-footer">
-    <div class="footer-content">
+    <div class="footer-content" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
         <div class="welcome-message">
-            <i class="fas fa-heart" style="color: #e74c3c;"></i> 欢迎访问{{ site.name | default: site.title }}的个人网站
+            <i class="fas fa-heart" style="color: #e74c3c;"></i> 欢迎访问{{ 李博 }}的个人网站
         </div>
-        <div class="social-links">
+        <div class="social-links" style="display: flex; justify-content: center; gap: 15px; margin: 10px 0;">
             {% if site.author.email %}
                 <a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope"></i></a>
             {% endif %}
@@ -17,7 +17,7 @@
             {% endif %}
         </div>
         <div class="copyright">
-            &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}的个人网站 | 使用 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> 构建
+            &copy; {{ site.time | date: '%Y' }} {{ 李博 }}的个人网站 | 使用 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> 构建
         </div>
     </div>
 </footer>
