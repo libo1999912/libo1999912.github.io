@@ -26,11 +26,11 @@ author:
   name             : "Li Bo"
   pronouns         : # example: "she/her"  
   bio              : "A programmer"
-  location         : "Beijing"
-  school           : "Beijing Technology and Business University"
   uri              : https://github.com/libo1999912/libo.github.io
-  birth_year       :1999       # 新增：出生年份（系统会自动计算年龄）
+  location         : "Beijing"
+  birth_year       : 1999       # 新增：出生年份（系统会自动计算年龄）
   phone            : "17395203651"   # 新增：联系电话
+  school           : "Beijing Technology and Business University"
   email            : "libo@st.btbu.edu.cn" 
   
   
