@@ -1,26 +1,3 @@
-<!-- <footer class="simple-footer" style="padding: 2px 0;"> <!-- 减少上下padding -->
-    <div class="footer-content" style="text-align: center; display: flex; flex-direction: column; align-items: center; padding: 0;">
-        <div class="welcome-message" style="font-size: 0.9rem; margin: 1px 0;">
-            <i class="fas fa-heart" style="color: #e74c3c;"></i> 欢迎访问{{ site.name | default: site.title }}的个人网站
-        </div>
-        <div class="social-links" style="display: flex; justify-content: center; gap: 3px; margin: 3px 0;">
-            {% if site.author.email %}
-                <a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" style="font-size: 0.9rem;"></i></a>
-            {% endif %}
-            {% if site.author.github %}
-                <a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" style="font-size: 0.9rem;"></i></a>
-            {% endif %}
-            {% if site.author.linkedin %}
-                <a href="https://linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin-in" style="font-size: 0.9rem;"></i></a>
-            {% endif %}
-        </div>
-        <div class="copyright" style="font-size: 0.9rem; margin: 3px 0;">
-            &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}的个人网站 | 使用 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> 构建
-        </div>
-    </div>
-</footer> -->
-
-
 {% include base_path %}
 
 <footer class="site-footer" style="padding: 8px 0; background-color: #f8f9fa; border-top: 1px solid #eaeaea; margin-top: 20px;">
