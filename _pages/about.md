@@ -12,10 +12,6 @@ permalink: /
     margin-top: 5px;
   }
   
-  .welcome-section {
-    margin-bottom: 2px; /* 减少欢迎语底部外边距 */
-  }
-  
   .projects-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -63,12 +59,12 @@ permalink: /
           <h3 style="margin: 0; font-size: 1rem;">
             <a href="https://github.com/libo1999912/Social-Robot-Detection-Project" 
                style="color: #0366d6; text-decoration: none; font-weight: 600;">
-              Social-Robot-Detection-Project
+              Social Robot Detection on Short Video Platform Based on Random Forest and LDA Model
             </a>
           </h3>
         </div>
         <p style="font-size: 0.9rem; color: #586069; margin-bottom: 10px; line-height: 1.4;"> <!-- 调整字体大小和间距 -->
-          Social Robot Detection on Short Video Platform Based on Random Forest and LDA Model
+          Social-Robot-Detection-Project
         </p>
         <div style="display: flex; font-size: 0.8rem; color: #586069;">
           <span style="display: flex; align-items: center; margin-right: 12px;">
@@ -99,11 +95,11 @@ permalink: /
         <div style="display: flex; font-size: 0.8rem; color: #586069;">
           <span style="display: flex; align-items: center; margin-right: 12px;">
             <span style="width: 10px; height: 10px; border-radius: 50%; background-color: #e34c26; margin-right: 4px;"></span>
-            HTML
+            Python
           </span>
           <span style="display: flex; align-items: center;">
             <i class="fas fa-star" style="color: #f1c40f; margin-right: 3px;"></i>
-            3
+            1
           </span>
         </div>
       </div>
