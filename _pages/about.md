@@ -55,15 +55,15 @@ permalink: /
       <!-- 项目1 -->
       <div class="project-card">
         <div style="display: flex; align-items: center; margin-bottom: 8px;"> <!-- 调整内部间距 -->
-          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 0.5rem;"></i> <!-- 调整图标大小 -->
-          <h3 style="margin: 0; font-size: 0.5rem;">
+          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 0.7rem;"></i> <!-- 调整图标大小 -->
+          <h3 style="margin: 0; font-size: 0.7rem;">
             <a href="https://github.com/libo1999912/Social-Robot-Detection-Project" 
                style="color: #0366d6; text-decoration: none; font-weight: 600;">
               Social Robot Detection on Short Video Platform Based on Random Forest and LDA Model
             </a>
           </h3>
         </div>
-        <p style="font-size: 0.9rem; color: #586069; margin-bottom: 10px; line-height: 1.4;"> <!-- 调整字体大小和间距 -->
+        <p style="font-size: 0.7rem; color: #586069; margin-bottom: 10px; line-height: 1.4;"> <!-- 调整字体大小和间距 -->
           Social-Robot-Detection-Project
         </p>
         <div style="display: flex; font-size: 0.8rem; color: #586069;">
@@ -80,16 +80,16 @@ permalink: /
       
       <!-- 项目2 -->
       <div class="project-card">
-        <div style="display: flex; align-items: center; margin-bottom: 8px;">
-          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 0.5rem;"></i>
-          <h3 style="margin: 0; font-size: 0.5rem;">
+        <div style="display: flex; align-items: center; margin-bottom: 5px;">
+          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 0.7rem;"></i>
+          <h3 style="margin: 0; font-size: 0.7rem;">
             <a href="https://github.com/libo1999912/A-lightweight-compression-model-based-on-transform" 
                style="color: #0366d6; text-decoration: none; font-weight: 600;">
               A-lightweight-compression-model-based-on-transform
             </a>
           </h3>
         </div>
-        <p style="font-size: 0.9rem; color: #586069; margin-bottom: 10px; line-height: 1.4;">
+        <p style="font-size: 0.7rem; color: #586069; margin-bottom: 5px; line-height: 1.4;">
           A-lightweight-compression-model-based-on-transform
         </p>
         <div style="display: flex; font-size: 0.8rem; color: #586069;">
