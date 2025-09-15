@@ -8,8 +8,8 @@ permalink: /
   .home-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
-    margin-top: 5px;
+    gap: 5px;
+    margin-top: 2px;
   }
   
   .welcome-section {
@@ -30,7 +30,7 @@ permalink: /
     transition: all 0.3s ease;
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 180px; /* 增加最小高度使卡片更长 */
+    min-height: 100px; /* 增加最小高度使卡片更长 */
   }
   
   .project-card:hover {
@@ -72,9 +72,6 @@ permalink: /
             </a>
           </h3>
         </div>
-        <p style="font-size: 1rem; color: #586069; margin-bottom: 15px; line-height: 1.5;">
-          Social Robot Detection on Short Video Platform Based on Random Forest and LDA Model
-        </p>
         <div style="display: flex; font-size: 0.9rem; color: #586069;">
           <span style="display: flex; align-items: center; margin-right: 20px;">
             <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #3572A5; margin-right: 6px;"></span>
@@ -98,9 +95,6 @@ permalink: /
             </a>
           </h3>
         </div>
-        <p style="font-size: 1rem; color: #586069; margin-bottom: 15px; line-height: 1.5;">
-          A-lightweight-compression-model-based-on-transform
-        </p>
         <div style="display: flex; font-size: 0.9rem; color: #586069;">
           <span style="display: flex; align-items: center; margin-right: 20px;">
             <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #e34c26; margin-right: 6px;"></span>
