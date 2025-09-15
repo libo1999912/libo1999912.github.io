@@ -51,11 +51,6 @@ permalink: /
 </style>
 
 {% include base_path %}
-
-<div class="welcome-section">
-  <p>欢迎来到我的个人网站！这里展示我的学术研究和个人项目。</p>
-</div>
-
 <div class="home-container">
   <div>
     <h2 style="font-size: 1.4rem; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-bottom: 5px;">精选项目</h2> <!-- 减少标题底部外边距 -->
