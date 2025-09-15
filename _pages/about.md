@@ -7,43 +7,45 @@ permalink: /
 <style>
   .home-container {
     display: grid;
-    grid-template-columns: 1fr; /* 改为单列布局 */
+    grid-template-columns: 1fr;
     gap: 10px;
     margin-top: 5px;
   }
   
   .welcome-section {
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* 减少底部间距 */
   }
   
   .projects-grid {
     display: grid;
-    grid-template-columns: 1fr; /* 单列布局 */
+    grid-template-columns: 1fr;
     gap: 15px;
   }
   
   .project-card {
     border: 1px solid #e1e4e8;
-    border-radius: 6px; /* 增加圆角 */
-    padding: 10px; /* 增加内边距 */
+    border-radius: 6px;
+    padding: 15px; /* 调整内边距 */
     background-color: #fff;
-    transition: all 0.3s ease; /* 添加过渡效果 */
-    max-width: 1200px; /* 增加最大宽度 */
-    margin: 0 auto; /* 水平居中 */
+    transition: all 0.3s ease;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 180px; /* 增加最小高度使卡片更长 */
   }
   
   .project-card:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* 悬停效果 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(-3px);
   }
   
   @media (min-width: 992px) {
     .projects-grid {
-      grid-template-columns: repeat(2, 1fr); /* 大屏幕上双列布局 */
+      grid-template-columns: repeat(2, 1fr);
     }
     
     .project-card {
-      max-width: 100%; /* 恢复默认宽度 */
+      max-width: 400px; /* 使卡片更窄 */
+      min-height: 220px; /* 在大屏幕上增加高度 */
     }
   }
 </style>
@@ -56,7 +58,7 @@ permalink: /
 
 <div class="home-container">
   <div>
-    <h2 style="font-size: 1.4rem; border-bottom: 1px solid #eee; padding-bottom: 12px; margin-bottom: 20px;">精选项目</h2>
+    <h2 style="font-size: 1.4rem; border-bottom: 1px solid #eee; padding-bottom: 12px; margin-bottom: 10px;">精选项目</h2> <!-- 减少底部间距 -->
     
     <div class="projects-grid">
       <!-- 项目1 -->
