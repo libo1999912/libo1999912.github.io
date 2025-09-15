@@ -20,7 +20,7 @@ permalink: /
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    margin-bottom: 0; /* 减少项目网格底部外边距 */
+    margin-bottom: -10px; /* 减少项目网格底部外边距 */
   }
   
   .project-card {
