@@ -104,7 +104,7 @@ permalink: /
         <div style="display: flex; font-size: 0.85rem; color: #586069;">
           <span style="display: flex; align-items: center; margin-right: 15px;">
             <span style="width: 10px; height: 10px; border-radius: 50%; background-color: #e34c26; margin-right: 5px;"></span>
-            HTML
+            Python
           </span>
           <span style="display: flex; align-items: center;">
             <i class="fas fa-star" style="color: #f1c40f; margin-right: 4px;"></i>
