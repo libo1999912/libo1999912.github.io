@@ -48,11 +48,6 @@ permalink: /
 
 <div class="home-container">
   <div>
-    <!-- 左侧内容保持不变 -->
-    {{ content }}
-  </div>
-  
-  <div>
     <h2 style="font-size: 1.3rem; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-bottom: 10px;">精选项目</h2>
     
     <div class="projects-grid">
