@@ -8,11 +8,6 @@ author_profile: true
 {% include base_path %}
 
 <div class="home-content">
-  <div class="home-left">
-    <!-- 左侧内容保持不变 -->
-    {{ content }}
-  </div>
-  
   <div class="home-right">
     <!-- 添加项目展示区 -->
     <div class="featured-projects">
