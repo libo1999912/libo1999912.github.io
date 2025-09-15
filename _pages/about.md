@@ -9,14 +9,14 @@ permalink: /
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;
-    margin-top: 5px;
+    margin-top: 3px;
   }
   
   .projects-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px; /* 减少网格间隙 */
-    margin-bottom: 5px; /* 使用正边距确保页脚显示 */
+    margin-bottom: 3px; /* 使用正边距确保页脚显示 */
   }
   
   .project-card {
@@ -37,7 +37,7 @@ permalink: /
   @media (min-width: 992px) {
     .projects-grid {
       grid-template-columns: repeat(2, 1fr);
-      margin-bottom: 5px; /* 大屏幕下保持正边距 */
+      margin-bottom: 3px; /* 大屏幕下保持正边距 */
     }
     
     .project-card {
@@ -55,8 +55,8 @@ permalink: /
       <!-- 项目1 -->
       <div class="project-card">
         <div style="display: flex; align-items: center; margin-bottom: 8px;"> <!-- 调整内部间距 -->
-          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 1rem;"></i> <!-- 调整图标大小 -->
-          <h3 style="margin: 0; font-size: 1rem;">
+          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 0.5rem;"></i> <!-- 调整图标大小 -->
+          <h3 style="margin: 0; font-size: 0.5rem;">
             <a href="https://github.com/libo1999912/Social-Robot-Detection-Project" 
                style="color: #0366d6; text-decoration: none; font-weight: 600;">
               Social Robot Detection on Short Video Platform Based on Random Forest and LDA Model
@@ -81,8 +81,8 @@ permalink: /
       <!-- 项目2 -->
       <div class="project-card">
         <div style="display: flex; align-items: center; margin-bottom: 8px;">
-          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 1rem;"></i>
-          <h3 style="margin: 0; font-size: 1rem;">
+          <i class="fas fa-bookmark" style="color: #6a737d; margin-right: 6px; font-size: 0.5rem;"></i>
+          <h3 style="margin: 0; font-size: 0.5rem;">
             <a href="https://github.com/libo1999912/A-lightweight-compression-model-based-on-transform" 
                style="color: #0366d6; text-decoration: none; font-weight: 600;">
               A-lightweight-compression-model-based-on-transform
