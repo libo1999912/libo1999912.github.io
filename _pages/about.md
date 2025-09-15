@@ -8,8 +8,8 @@ permalink: /
   .home-container {
     display: grid;
     grid-template-columns: 1fr; /* 改为单列布局 */
-    gap: 20px;
-    margin-top: 10px;
+    gap: 10px;
+    margin-top: 5px;
   }
   
   .welcome-section {
@@ -25,10 +25,10 @@ permalink: /
   .project-card {
     border: 1px solid #e1e4e8;
     border-radius: 6px; /* 增加圆角 */
-    padding: 20px; /* 增加内边距 */
+    padding: 10px; /* 增加内边距 */
     background-color: #fff;
     transition: all 0.3s ease; /* 添加过渡效果 */
-    max-width: 800px; /* 增加最大宽度 */
+    max-width: 1200px; /* 增加最大宽度 */
     margin: 0 auto; /* 水平居中 */
   }
   
